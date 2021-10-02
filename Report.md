@@ -23,12 +23,12 @@ https://github.com/ETarkhanova/Money-Transfer/issues/1
 
 * Код программы:
 ```public class Main {
-  public static void main(String[] args) {
-    int price = 150;
-    int count = 5;
-    int total = price * count;
-    System.out.println(total);
-  }
+    public static void main(String[] args) {
+        int balance = 2_000_000_000;
+        int transferAmount = 500_000_000;
+        int total = balance + transferAmount;
+        System.out.println(total);
+    }
 }
 ```
 
